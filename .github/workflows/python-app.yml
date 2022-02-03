@@ -22,7 +22,7 @@ jobs:
         python-version: "3.10"
     - name: Install dependencies
       run: |
-        python -m temp.py
+        python -m temp
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
